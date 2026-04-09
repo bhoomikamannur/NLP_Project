@@ -1,11 +1,11 @@
 # Word Frequency Shift Across Domains
 
-##  Overview
+## Overview
 This project analyzes how vocabulary usage varies across different domains using the Reuters-21578 dataset. It demonstrates that word frequency distributions are domain-dependent and can be used to understand and classify text.
 
 ---
 
-##  Objectives
+## Objectives
 - Analyze word frequency across different domains
 - Identify domain-specific vocabulary
 - Compare vocabulary distributions across domains
@@ -14,7 +14,7 @@ This project analyzes how vocabulary usage varies across different domains using
 
 ---
 
-##  Dataset
+## Dataset
 - Dataset: Reuters-21578
 - Source: https://kdd.ics.uci.edu/databases/reuters21578/
 - Total extracted documents: 8654
@@ -29,7 +29,7 @@ This project analyzes how vocabulary usage varies across different domains using
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### 1. Data Extraction
 - Parsed SGML files using BeautifulSoup
@@ -54,7 +54,7 @@ This project analyzes how vocabulary usage varies across different domains using
 
 ---
 
-## 🚀 Innovation
+## Innovation
 
 ### 1. Distinctive Word Detection
 Identifies words strongly associated with specific domains using relative frequency.
@@ -67,7 +67,7 @@ Introduces confidence-based classification to avoid incorrect predictions for un
 
 ---
 
-## 📊 Results & Insights
+## Results & Insights
 - Each domain exhibits distinct vocabulary patterns
 - Financial domains (earn, acq) share similar words
 - Crude domain is highly specialized
@@ -75,7 +75,7 @@ Introduces confidence-based classification to avoid incorrect predictions for un
 
 ---
 
-## 🌍 Real-World Applications
+## Real-World Applications
 - News article categorization
 - Search engine query understanding
 - Email/document classification
@@ -83,7 +83,7 @@ Introduces confidence-based classification to avoid incorrect predictions for un
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - NLTK
 - BeautifulSoup
@@ -91,4 +91,8 @@ Introduces confidence-based classification to avoid incorrect predictions for un
 - Matplotlib
 
 ---
-
+## Future Improvements
+Use TF-IDF for better weighting
+Apply machine learning models
+Extend to more domains
+Improve preprocessing using lemmatization
